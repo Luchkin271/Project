@@ -1,0 +1,152 @@
+html{
+    margin: 0;
+    line-height: 1.6;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+     
+body{
+    background: #00d8fdff;
+}
+
+ul{
+    list-style: none;
+}
+
+.pgBackground{
+    width: 110%;
+    height: 100vh;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1000;
+    background: url("../images/topBg.svg") center no-repeat;
+    background-size: cover;
+}
+.header__conteiner{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 140px;
+}
+.header__content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0 100px;
+}
+.header__nav{
+    
+}
+.header__nav_list{
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    gap: 0 65px;
+}
+.header__user{
+    justify-content:center;
+    align-content: center;
+}
+.logo{
+    justify-content:center;
+    align-content: center;
+}
+
+.content{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 45px;
+    outline-style: dashed;
+    outline-width: 4px;
+    outline-offset: 5px;
+    outline-color: #000cf0;
+}
+.content__path{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 5px;
+    font-size: 30px;
+}
+.content__path_text{
+    margin-left: 0px;
+    outline-style: dashed;
+    outline-width: 4px;
+    outline-offset: 5px;
+    outline-color: #000cf0;
+}
+.content__{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content__nav_list{
+    min-width: 200px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    outline-style: dashed;
+    outline-width: 4px;
+    outline-offset: 5px;
+    outline-color: #000cf0;
+    gap: 5px;
+    
+    font-size: 25px;
+}
+.content__content{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    outline-style: dashed;
+    outline-width: 4px;
+    outline-offset: 5px;
+    outline-color: #000cf0;
+    gap: 5px;
+}
+.content__header{
+    display: flex;
+    justify-content: space-between;
+}
+.content__header_img{
+    width: 300px;
+    height: 300px;
+}
+.content__header_name{
+    font-size: 25px;
+}
+.content__header_type{
+    font-size: 15px;
+}
+.content__text{
+    min-width:  1100px;
+}
+
+
+
