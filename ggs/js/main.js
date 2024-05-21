@@ -1,8 +1,9 @@
-function ready() {
-    alert('DOM готов');
+const objectName = document.querySelector('.content__header_name');
+const objectType = document.querySelector('.content__header_type');
 
-    // изображение ещё не загружено (если не было закешировано), так что размер будет 0x0
-    alert(`Размер изображения: ${img.offsetWidth}x${img.offsetHeight}`);
-  }
+const contentLoad = (name,  type) => {
+    objectName.innerHTML = name;
+    objectType.innerHTML = type;
+}
 
-  document.addEventListener("DOMContentLoaded", ready);
+document.addEventListener('DOMContentLoaded', contentLoad('Имя объекта', 'Тип объекта'))
