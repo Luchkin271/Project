@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg739"
+   width="1197.8199"
+   height="497.81989"
+   viewBox="0 0 1197.8199 497.81989"
+   sodipodi:docname="rect234.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs743">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2687">
+      <stop
+         style="stop-color:#00d8fd;stop-opacity:1;"
+         offset="0"
+         id="stop2683" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop2685" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2687"
+       id="linearGradient2689"
+       x1="-400.83481"
+       y1="324.10559"
+       x2="-523.30414"
+       y2="-72.996758"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.667604,0,0,1.0790749,36.054785,-0.0280359)" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview741"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.68496197"
+     inkscape:cx="111.68503"
+     inkscape:cy="291.25705"
+     inkscape:window-width="1920"
+     inkscape:window-height="1054"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g745" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g745"
+     transform="translate(1278.6256,15.78183)">
+    <rect
+       style="fill:url(#linearGradient2689);fill-opacity:1;stroke:none;stroke-width:0;stroke-linecap:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect1138"
+       width="1197.8199"
+       height="497.81989"
+       x="-1278.6256"
+       y="-15.78183"
+       inkscape:export-filename="..\..\..\Dimajs\ggs\images\topBg.svg"
+       inkscape:export-xdpi="95.999992"
+       inkscape:export-ydpi="95.999992" />
+  </g>
+</svg>
