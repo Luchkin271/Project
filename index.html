@@ -9,26 +9,27 @@
     <link rel="stylesheet" href="css/reset.css">
 </head>
 <body>
+
+<header class="header">
+    <a class="logo" href="#">
+        <img src="images/userIcon.svg" alt="Logo">
+    </a>
+    <div class="header__content">
+        <nav class="header__nav">
+            <a href="#" class="header__nav_link">Главная</a>
+            <a href="#" class="header__nav_link">ЛК</a>
+        </nav>
+        <a href="#" class="header__user">
+            <img src="images/userIcon.svg" alt="">
+        </a>
+    </div>
+</header>
 <div class="container">
-    <header class="header">
-            <a class="logo" href="#">
-                <img src="images/userIcon.svg" alt="Logo">
-            </a>
-            <div class="header__content">
-                <nav class="header__nav">
-                        <a href="#" class="header__nav_link">main</a>
-                        <a href="#" class="header__nav_link">accept</a>
-                </nav>
-                <a href="#" class="header__user">
-                    <img src="images/userIcon.svg" alt="">
-                </a>
-            </div>
-    </header>
 
         <div class="address-line">
 
             <div class="address-line__path">
-                hui \ pizda \ skovoroda
+                Предприятие1 \ Сборочный цех \ Фрезерная линия
             </div>
 
         </div>
@@ -37,12 +38,9 @@
 
             <nav class="content__nav">
                 <ul class="content__nav_list">
-                    <li class="content__nav_item"><a>ПИЗДА</a></li>
-                    <li class="content__nav_item"><a>ПИЗДА</a></li>
-                    <li class="content__nav_item"><a>ПИЗДА</a></li>
-                    <li class="content__nav_item"><a>ПИЗДА</a></li>
-                    <li class="content__nav_item"><a>ПИЗДА</a></li>
-                    <li class="content__nav_item"><a>ПИЗДА</a></li>
+                    <li class="content__nav_item" style="text-decoration: underline"><a>Фрезерная линия</a></li>
+                    <li class="content__nav_item"><a>Токарная линия</a></li>
+                    <li class="content__nav_item"><a>Сборочная линия</a></li>
                 </ul>
             </nav>
 
@@ -53,16 +51,18 @@
                         </div>
                         <div class="content__header_type">
                         </div>
+                        <div class="content__header_person">
+                        </div>
                     </div>
                     <div class="content__header_img">
-                        img
+                        <img src="./images/img1.webp" alt="">
                     </div>
                 </div>
                 <div class="content__info">
                     <ul class="content__main_list">
-                        <li class="content__main_item">Датчик 1</li>
-                        <li class="content__main_item">Датчик 2</li>
-                        <li class="content__main_item">Датчик 3</li>
+                        <li class="content__main_item">Датчик движения 1: <span style="color: green">OFF</span></li>
+                        <li class="content__main_item">Датчик движения 2: <span style="color: orange">ON</span></li>
+                        <li class="content__main_item">Датчик температуры ВНУТР: <span style="color: green">56</span></li>
                     </ul>
                 </div>
             </div>
@@ -70,6 +70,7 @@
 
     </div>
 
+<footer><p>(С)2024. Все права защищены</p></footer>
 
    <script type="text/javascript" src="js/main.js"></script>
 </body>

@@ -18,6 +18,8 @@ body {
     line-height: 1;
     font-family: Arial, Tahoma, Verdana, sans-serif;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -42,21 +44,36 @@ img { border: 0; max-width: 100%; }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 a:hover { text-decoration: underline; }
 
 .container {
     margin: 0 7%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .header {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+.header a {
+    color: white;
+}
+
+.header img, .footer img {
+    width: 50px;
+    vertical-align: middle;
 }
 
 .header__content {
@@ -80,6 +97,7 @@ a:hover { text-decoration: underline; }
     padding: 5px;
     margin: 5px 0;
     height: 3rem;
+    flex-shrink: 0;
 }
 
 .address-line__path {
@@ -96,6 +114,8 @@ a:hover { text-decoration: underline; }
     max-width: 1400px;
     display: flex;
     border: solid 2px #000;
+    flex-shrink: 0;
+    min-height: 60vh;
 }
 
 .content__nav {
@@ -109,7 +129,8 @@ a:hover { text-decoration: underline; }
 }
 
 .content__nav_item {
-    margin: 10px;
+    padding: 10px;
+    border-bottom: 2px solid #000;
 }
 
 .content__main {
@@ -131,10 +152,25 @@ a:hover { text-decoration: underline; }
     gap: 10px;
 }
 
+.content__header_img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
 .content__info {
     padding: 10px 10px 0;
 }
 
 .content__main_item {
     margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3e50;
+    flex: 0 0 auto;
 }
