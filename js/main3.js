@@ -14,6 +14,7 @@ const contentLoad = (name,  type, personName) => {
     objectType.innerHTML = type;
     objectPerson.innerHTML = personName;
     timeHandler();
+
 }
 
 const dtONHandler = (dt) => {
@@ -64,9 +65,9 @@ const timeHandler = () => {
 }
 
 document.addEventListener('DOMContentLoaded', contentLoad(
-    'Имя объекта: FT1-465',
+    'Имя объекта: ST1-321',
     'Тип объекта: Станок',
-    'Закреплённый сотрудник: Лучкин Г.А.'));
+    'Закреплённый сотрудник: Алиев Д.В.'));
 
 
 

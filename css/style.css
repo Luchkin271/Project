@@ -44,9 +44,13 @@ img { border: 0; max-width: 100%; }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
-a:hover { text-decoration: underline; }
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .container {
     margin: 0 7%;
@@ -153,8 +157,8 @@ a:hover { text-decoration: underline; }
 }
 
 .content__header_img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .content__info {
